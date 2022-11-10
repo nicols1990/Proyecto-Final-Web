@@ -1,0 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*mantiene el contenido al limite de la pagina, lo ancho y alto se suma automatico con el borde de la caja*/
