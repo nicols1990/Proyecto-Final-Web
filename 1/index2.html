@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link href="css1tp.css" rel>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="En esta pagina podras comprar ricos menu y solicitar que te lo lleven, solo queda disfrutar">
+    <meta name="keywords" content="comida,menu,pedido,delivery">
+    <link rel="stylesheet" href="misestilos.css">
+    <script src="miscomandos.js"></script>
+    <title>Pedidos Ya</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBZJ3Ohab8vby-BcIUVNoYWVv32GSkoPXs_w&usqp=CAU" alt="logo de la empresa" width="100px">
+            <p>Pedidos Ya</p>
+            <!--aca va el nombre de la empresa-->
+        </div>
+        <nav>
+            <a href="micuenta.html" target="_blank" rel="noopener noreferrer">Mi cuenta</a>
+            <a href="" target="_blank" rel="noopener noreferrer">Sobre nosotros</a>
+            <!--les parece agregar quienes somos y que hacemos ??-->
+            <a href="mipedido.html" target="_blank" rel="noopener noreferrer">Mi pedido</a>
+            <a href="#contacto" target="_blank" rel="noopener noreferrer">Contacto</a>
+            <!--va en el footer-->
+        </nav>
+    </header>
+
+    <div class="cuerpo-principal">
+
+        <div class="secciones">
+            <!--cada boton llevara abajo hasta donde este la seleccion-->
+            <a class="botones-seleccion" href="#menu1">Menu 1</a>
+            <a class="botones-seleccion" href="#menu2">Menu 2</a>
+            <a class="botones-seleccion" href="#menu3">Menu 3</a>
+            <a class="botones-seleccion" href="#menu4">Menu 4</a>
+        </div>
+
+        <div id="bienvenido">
+            <!--aca podria ir la foto de presentacion con css, podria ocupar ancho de la pantalla y 200px de alto-->
+
+        </div>
+
+
+        <!--aca va el menu de seleccion-->
+        <div id="menu-principal">
+            <div id="menu1">
+                <p>Super Hambuguesas caseras realizadas a base de la mejor carne argentina
+                    
+                
+                </p>
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmuCAr315LWNpb_t3HsPJXsup-lNCgenLF-A&usqp=CAU" alt="foto de la comida 1" height="200" width="260"></div>
+                <p>"$500 ars por unidad"</p>
+                <div>
+                    <form action="" method="get">
+                        <input type="number" name="cantidad" id="cantidad">
+                        <input type="submit" value="Comprar Menu" id="boton">
+                    </form>
+                </div>
+            </div>
+
+            <div id="menu2">
+                <p>Pastas Italianas</p>
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx7LPsmIyC0mlWeT2i_r7AlClM4jcJVQyUMQ&usqp=CAU" alt="foto de la comida 2"></div>
+                <p>"$800ars el plato"</p>
+                <div>
+                    <form action="" method="get">
+                        <input type="number" name="cantidad" id="cantidad">
+                        <input type="submit" value="Comprar Menu">
+                    </form>
+                </div>
+            </div>
+
+            <div id="menu3">
+                <p>Tacos Mexicanos</p>
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV_4gKLsPEPkITB_ojNjkOQlOTndr8tzU56g&usqp=CAU" alt="foto de la comida 3"></div>
+                <p>"$400ars la unidad"</p>
+                <div>
+                    <form action="" method="get">
+                        <input type="number" name="cantidad" id="cantidad">
+                        <input type="submit" value="Comprar Menu">
+                    </form>
+                </div>
+            </div>
+
+            <div id="menu4">
+                <p>Sushi Japones</p>
+                <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXaGQjhe4KeVFuuQVak7Y4VoIXqyTEjUuD5g&usqp=CAU" alt="foto de la comida 4"></div>
+                <p>"$ 2000ars la Bandeja"</p>
+                <div>
+                    <form action="" method="get">
+                        <input type="number" name="cantidad" id="cantidad">
+                        <input type="submit" value="Comprar Menu">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div>creado por @colegas</div>
+        <div>copyright 2022</div>
+        <div>contacto</div>
+    </footer>
+</body>
+
+</html>
