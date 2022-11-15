@@ -5,3 +5,8 @@
 }
 
 /*mantiene el contenido al limite de la pagina, lo ancho y alto se suma automatico con el borde de la caja*/
+.formularios{
+    width: 30%;
+    margin: auto;
+    border: solid;
+}
