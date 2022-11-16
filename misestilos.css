@@ -5,8 +5,43 @@
 }
 
 /*mantiene el contenido al limite de la pagina, lo ancho y alto se suma automatico con el borde de la caja*/
-.formularios{
-    width: 30%;
-    margin: auto;
-    border: solid;
+
+body {
+    display: grid;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #bdb76b;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div img {
+    width: 100px;
+    margin: 10px;
+}
+
+header div p {
+    text-align: center;
+    color: red;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: 600;
 }
